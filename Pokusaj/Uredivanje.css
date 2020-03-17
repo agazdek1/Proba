@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@import "../valo/valo.scss";
+
+@
+mixin mytheme { 
+	@include valo;
+	.main { 
+		background-color:#3486eb;
+	}
+}
