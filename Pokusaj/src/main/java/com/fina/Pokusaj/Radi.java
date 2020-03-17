@@ -58,6 +58,9 @@ public class Radi extends UI {
 	
 	Grid<Protocol> grid8 = new Grid<Protocol>();
 	Grid<Protocol> grid9 = new Grid<Protocol>();
+	
+	Grid<Protocol> grid10 = new Grid<Protocol>();
+	
 
 	@Autowired
 	TodoLayout layout;
