@@ -43,6 +43,9 @@ public class Radi extends UI {
 	private VerticalLayout root;
 	List<Osoba> osobe = new ArrayList<Osoba>();
 	Grid<Protocol> grid = new Grid<Protocol>();
+	
+	
+	Grid<Protocol> grid1 = new Grid<Protocol>();
 
 	@Autowired
 	TodoLayout layout;
